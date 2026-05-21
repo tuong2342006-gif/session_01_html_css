@@ -23,7 +23,6 @@
     transition: width 1s ease-out;
 }
 
-/* mobile */
 @media (max-width: 768px) {
     .skills-grid {
         grid-template-columns: 1fr;

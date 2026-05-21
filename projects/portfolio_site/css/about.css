@@ -22,7 +22,6 @@
     margin-bottom: 1rem;
 }
 
-/* responsive */
 @media (max-width: 768px) {
     .about-grid {
         grid-template-columns: 1fr;

@@ -18,13 +18,11 @@
     font-size: 1.2rem;
 }
 
-/* nav */
 .nav a {
     margin-left: 1.5rem;
     position: relative;
 }
 
-/* hover underline */
 .nav a::after {
     content: "";
     position: absolute;
@@ -40,7 +38,6 @@
     width: 100%;
 }
 
-/* mobile */
 .menu-toggle {
     display: none;
 }
@@ -51,8 +48,7 @@
     cursor: pointer;
 }
 
-/* responsive */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .nav {
         display: none;
         flex-direction: column;
